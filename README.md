@@ -6,14 +6,25 @@ This API also contains swagger API doc to test API
 
 __________________________________________________________________________________________________
 
+#API Endpoints.
+
+- 'localhost' to view all the previously generated urls
+- 'localhost/create/' to generate short url from long url
+- 'localhost/swagger/' displays swagger API test doc
+
+__________________________________________________________________________________________________
+
 #Setting up this project locally.
 
 - Make sure you have installed python, django, django rest framework and swagger
 - Git clone the project in your local directory 
-- Open the cloned project/directory in any IDE/editor and enter into the 'project' directory
+- Enter into the 'project' directory
 - Type 'python manage.py runserver', now the django's inbuilt server gets started and display a localhost link on your terminal
-- Click on the link and browsable api gets open, you will get all the previous original and short link if you have in db.
-- To get short url from long url, type '/create/' after localhost link in your browser
-- Enter your url in the original_url field and click post, you will get a short url as a response on the same browser 
+- Make sure your 'HOST_URL' in settings.py and localhost port are same
+- Type localhost and port number on your browser, browsable api gets open and display all the data objects if available in your db.
+- Type '/create/' after localhost url in your browser to generate short url from long url
+- After post, you will get a short url as a response on the same browser 
 - Copy the short url and paste in your browser it redirects to the original url
+
+
  

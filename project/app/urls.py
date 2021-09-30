@@ -1,6 +1,7 @@
 from django.urls import path
 from . import views
 
+# All the endpoints are defined here.
 urlpatterns = [
     path('', views.ShortenerListApiView.as_view(), name='all_urls'),
     path('create/', views.ShortenerCreateApiView.as_view(), name='create_link'),

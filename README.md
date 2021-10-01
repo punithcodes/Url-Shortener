@@ -4,7 +4,7 @@ This is an url shortener Rest API which takes url as an input and gives an short
 This API is built using Django Rest Framework
 This API also contains swagger API doc to test API
 
-__________________________________________________________________________________________________
+_________________________________________________________________________________________________
 
 #API Endpoints.
 
@@ -12,7 +12,7 @@ ________________________________________________________________________________
 - 'localhost/create/' to generate short url from long url
 - 'localhost/swagger/' displays swagger API test doc
 
-__________________________________________________________________________________________________
+_________________________________________________________________________________________________
 
 #Setting up this project locally.
 
